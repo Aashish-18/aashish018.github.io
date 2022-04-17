@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popppins", sans-serif;
+}
+.fullpage{
+    height: 100vh;
+    overflow: hidden;
+ 
+   
+}
+.Navbar{
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(224, 236, 232);
+}
+.logoImg{
+    flex: 2;
+
+
+  
+}
+.navBarMenu{
+    flex: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    font-weight: 600;
+
+}
+.navBarMenu a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 12px;
+    background-color: white;
+    transition: all 0.5s ease;
+    
+}
+.navBarMenu a:hover{
+    background-color: orangered;
+    color: white;
+
+}
+.logoImg img{
+    cursor: pointer;
+margin-left: 30px;
+    height: 100%;
+
+}
+
+
+
+
+/*Side bar*/
+.sidemenu{
+    background-color: rgb(220, 231, 228);
+   
+    flex: 1.2;
+    min-width: 170px;
+    height: 100vh;
+ 
+}
+.upperbody{
+
+    flex: 6;
+    height: 100vh;
+}
+.upperbody_first{
+    height: 15%;
+    padding: 20px;
+    color:antiquewhite;
+    background-color: rgb(68, 68, 111);
+}
+.lower{
+    height: 70%;
+    display: flex;
+}
+
+/*Content*/
+.lowerbody{
+    flex: 1;
+
+    
+   
+}
+.topic_content{
+    background-color: rgb(152, 143, 143);
+    height: 60%;
+
+}
+.topic_content iframe{
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+.footer{
+    
+    height: 40%;
+}
+.page_navigation{
+    background-color: rgb(202, 202, 207);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.page_navigation a{
+    background-color: orangered;
+    border-radius: 7px;
+    padding: 10px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin: 5px;
+
+}
+.page_navigation a:hover{
+    background-color: green;
+    color: white;
+
+}
+
+
+
+
+/*FAQ*/.faq{
+    background-color: rgb(202, 202, 207);
+    height: 100%;
+}
+.title{
+    color: rgb(17, 17, 17);
+    text-align: center;
+    margin: 10px 0px;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .faqAcc{
+      overflow: auto;
+
+  }
+.questions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: 500;
+   
+
+  }
+
+
+
+
+
+/*feedback*/
+
+
+
+
+
+
+
+.feedback{
+    flex: 1;
+    background-color: teal;
+    max-width: 250px;
+    height: max-content;
+
+   
+}
+.course{
+    display: flex;
+}
+.subject{
+    list-style: none;
+    margin-left: 20px;
+   
+}
+.topic{
+    margin: 8px 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 5px;
+    transition: all 0.5s ease;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    
+}
+.topic a{
+    color: orangered;
+
+}
+.topic:hover{
+    background-color: rgb(226, 218, 214);
+
+
+}
+a{
+    text-decoration: none;
+}
+.course_header{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.topic1{
+    display: flex;
+    bottom: 0 !important;
+    position: absolute;
+    left: 0;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.icons1{
+margin-left: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+}
+.icons1:hover{
+ 
+    transform: scale(2);
+
+}
+.i1:hover{
+    color: blue;
+}
+.i2:hover{
+    color: #00ACEE;
+}
+.i3:hover{
+    color: red;
+}
+.feedbackContainer{
+    margin:20px 10px;
+    flex-wrap: wrap;
+    
+
+
+}
+.rating_name{
+    width: 100%;
+    color: white;
+    display: flex;
+
+
+}
+.icons{
+    flex:1;
+    font-size: 20px;
+    margin-left: 20px;
+    float: right;
+    color: rgb(51, 44, 62);
+}
+.feedbackContainer small{
+    color: rgb(218, 202, 202);
+}

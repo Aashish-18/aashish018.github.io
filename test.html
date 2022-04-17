@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test yourself</title>
+    
+    <style>
+        *{
+            padding: 10px;
+        }
+        .title{
+            text-align: center;
+
+
+        }
+        .questions{
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="title">
+            <a href="./index.html"><h1>Home</h1></a>
+            <h1>Test for Future of world</h1>
+        </div>
+        <div class="questions">
+          
+                <p>Which of the following element is responsible for making the text bold in HTML?</p>
+                <input type="radio" id="first1" name="1" value="HTML">
+                <label for="first1">&lt;pre&gt;</label><br>
+                <input type="radio" id="first2" name="1" value="CSS">
+                <label for="first2">&lt;a&gt;</label><br>
+                <input type="radio" id="first3" name="1" value="JavaScript">
+                <label for="first3">&lt;b&gt;</label>
+              
+                <br>  
+                <p>How to add a background color in HTML?</p>
+                <input type="radio" id="two1" name="2" value="HTML">
+                <label for="two1">&lt;marquee bg color: "red"&gt;</label><br>
+                <input type="radio" id="two2" name="2" value="CSS">
+                <label for="two2">&lt;marquee bg-color = "red"&gt;</label><br>
+                <input type="radio" id="two3" name="2" value="JavaScript">
+                <label for="two3">&lt;marquee bgcolor = "red"&gt;</label>
+              
+                <br> 
+                <p> Which of the following tag is used for inserting the largest heading in HTML?</p>
+                <input type="radio" id="three1" name="3" value="HTML">
+                <label for="three1">&lt;h1&gt;</label><br>
+                <input type="radio" id="three2" name="3" value="CSS">
+                <label for="three2">&lt;h6&gt;</label><br>
+                <input type="radio" id="three3" name="3" value="JavaScript">
+                <label for="three3">NA</label>
+              
+                <br> 
+                
+              
+                <br>
+                <p>Upon encountering empty statements, what does the Javascript Interpreter do?</p>
+                <input type="radio" id="four1" name="4" >
+                <label for="four1">Gives warning</label><br>
+                <input type="radio" id="four2" name="4" >
+                <label for="four2">Throws an error</label><br>  
+                <input type="radio" id="four3" name="4" >
+                <label for="four3">Ignores the statement</label><br>
+                
+                <br>
+                <p>Can JS be used to develop AI Now:</p>
+                <input type="radio" id="five1" name="5" >
+                <label for="five1">NO</label><br>
+                <input type="radio" id="five2" name="5" >
+                <label for="five2">Yes</label><br>  
+
+                <br>  
+               
+                <button onclick="mark();">Submit</button>
+
+
+
+        </div>
+
+    </section>
+    <script>
+      function mark(){
+        var val =0;
+        if(document.getElementById('first3').checked) {
+
+            val++;
+        }
+        if(document.getElementById('two3').checked) {
+            val++;
+
+}
+if(document.getElementById('three1').checked) {
+    val++;
+
+}
+if(document.getElementById('four3').checked) {
+    val++;
+
+}
+if(document.getElementById('five1').checked) {
+    val++;
+
+}
+console.log(val)
+alert("You scroed: "+val+"/5");
+location.reload();
+      }
+
+        
+    </script>
+
+</body>
+</html>
